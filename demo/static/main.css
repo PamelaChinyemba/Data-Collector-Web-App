@@ -1,0 +1,53 @@
+.Container{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color:darkslategray ;
+    color: antiquewhite;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+html, body{
+    margin: 0;
+    height: 100% ;
+}
+
+.Container h1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+margin-top: 80px;
+
+}
+
+.Container form{
+    margin:50px
+}
+
+.Container input{
+    width:300px;
+    height: 20px;
+    font-size: 15px;
+    margin: 4px;
+    padding: 20px;
+    transition: ease-in-out;
+}
+
+.Container button{
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    background-color: grey;
+}
+
+.Container p{
+    padding: 100px;
+}
+
+.Message {
+    color: crimson;
+    text-align: center;
+    transition: ease-in;
+}
